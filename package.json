@@ -1,8 +1,8 @@
 {
-  "name": "monsters-rolodex",
+  "name": "red2_proj",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yashpriyam.github.io/red_proj/",
+  "homepage": "https://yashpriyam.github.io/red2_proj/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "grommet": "^2.12.0",
