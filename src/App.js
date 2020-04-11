@@ -4,7 +4,7 @@ import ProdInfo from './components/prod-info/prod-info.component';
 import HomePage from './components/homepage/homepage';
 
 import './App.css';
-import { Header } from './components/header/header.component';
+// import { Header } from './components/header/header.component';
 
 class App extends Component {
   constructor(){
