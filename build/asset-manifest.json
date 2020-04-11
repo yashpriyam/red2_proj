@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/red2_proj/static/css/main.f2c8ad92.chunk.css",
-    "main.js": "/red2_proj/static/js/main.d4d66502.chunk.js",
-    "main.js.map": "/red2_proj/static/js/main.d4d66502.chunk.js.map",
+    "main.js": "/red2_proj/static/js/main.75ea3e1e.chunk.js",
+    "main.js.map": "/red2_proj/static/js/main.75ea3e1e.chunk.js.map",
     "runtime~main.js": "/red2_proj/static/js/runtime~main.5af86c05.js",
     "runtime~main.js.map": "/red2_proj/static/js/runtime~main.5af86c05.js.map",
     "static/js/2.a52eccb6.chunk.js": "/red2_proj/static/js/2.a52eccb6.chunk.js",
     "static/js/2.a52eccb6.chunk.js.map": "/red2_proj/static/js/2.a52eccb6.chunk.js.map",
     "index.html": "/red2_proj/index.html",
-    "precache-manifest.d5415aa5d472c15b0accba36c90f45bd.js": "/red2_proj/precache-manifest.d5415aa5d472c15b0accba36c90f45bd.js",
+    "precache-manifest.64726d226157773948228ea95e2c20df.js": "/red2_proj/precache-manifest.64726d226157773948228ea95e2c20df.js",
     "service-worker.js": "/red2_proj/service-worker.js",
     "static/css/main.f2c8ad92.chunk.css.map": "/red2_proj/static/css/main.f2c8ad92.chunk.css.map"
   }
