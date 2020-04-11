@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  /* font-family: 'Bigelow Rules'; */
+  font-size: 58px;
+  color: #df950bfb;
+  margin: 0px;
+}
+
+.grid-container > div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main main  main'
+    'menu main main main main main';
+  grid-gap: 10px;
+  background-color: rgb(233, 236, 240);
+  padding: 10px;
+  margin: 20px;
+}
+
+label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+.App > input {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+.item1 { grid-area: header;
+background-color: white;
+border-radius: 10px;
+ }
+.item2 { grid-area: menu;
+background-color: white;
+width: 20vw; }
+.item3 { grid-area: main;
+padding: 0px;}
+.grid-container > h1 { position: absolute;}
+.item1 > h1 { position: absolute;
+margin: -10px 0px 0px 10px;}

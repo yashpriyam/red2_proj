@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  /* font-family: 'Bigelow Rules'; */
+  font-size: 58px;
+  color: #df950bfb;
+  margin: 0px;
+}
+
+.container > div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    'pic pic pic header header header'
+    'pic pic pic main main main'
+    'pic pic pic main main main';
+  grid-gap: 10px;
+  background-color: rgb(233, 236, 240);
+  padding: 10px;
+}
+
+label {
+  display: block;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+.App > input {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+.item-prod { grid-area: header;
+/* background-color: white; */
+border-radius: 10px;
+}
+.item-prod > h1{
+  color: black;
+  font-weight: normal;
+  text-align: left;
+}
+
+.item-prod > h6{
+  color: black;
+  text-align: left;
+}
+.item2-prod { grid-area: pic;
+background-color: white;
+width: 50vw; }
+.item3 { grid-area: main;
+padding: 0px;}
+.item-prod > p {
+  text-align: left;
+  font-size: 10px;
+  font-weight: 100;
+}
+.container > h1 { position: absolute;}
+
+/* .item-prod > h1 { position: absolute; */
+/* margin: -10px 0px 0px 10px;} */
